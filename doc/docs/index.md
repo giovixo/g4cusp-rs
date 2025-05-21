@@ -1,8 +1,8 @@
-# g4cusp-gps
+# g4cusp-rs
 
 __A GEANT4 code to simulate the CUSP detector__
 
-*Source Model: General Purpose Source (GPS)*
+*Source Model: Rotating Source (RS)*
 
 ![g4cusp screenshot](images/g4cusp.png)
 

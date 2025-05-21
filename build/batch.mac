@@ -1,7 +1,0 @@
-# Macro file
-# 
-# Can be run in batch, without graphic
-# or interactively: Idle> /control/execute run.mac
-#
-/run/initialize
-/run/beamOn 200
