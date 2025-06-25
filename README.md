@@ -1,5 +1,5 @@
 # g4cusp-rs
 
-## A GEANT4 simulation for CUSP
+**A GEANT4 simulation for CUSP**
 
-Source model: a rotating satellite
+**Source model:** a rotating satellite
