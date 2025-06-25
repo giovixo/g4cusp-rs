@@ -42,8 +42,8 @@ file(COPY ${XML_FILES} DESTINATION ${PROJECT_BINARY_DIR})
 file(GLOB GDML_FILES ${PROJECT_SOURCE_DIR}/gdml-mass-model/*.gdml)
 file(COPY ${GDML_FILES} DESTINATION ${PROJECT_BINARY_DIR})
 
-# Copy the CSV files (this option is for backwards compatibility)
-file(GLOB CSV_FILES "*.csv")
+# Copy the CSV files
+file(GLOB CSV_FILES ${PROJECT_SOURCE_DIR}/input-events/*.csv)
 file(COPY ${CSV_FILES} DESTINATION ${PROJECT_BINARY_DIR})
 
 #----------------------------------------------------------------------------
